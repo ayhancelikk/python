@@ -38,3 +38,16 @@ print ( 'Tam Bölme: {0} // {1} = {2}'.format ( sayi1, sayi2, sonuc5 ) )
 print ( 'Mod alma: {0} % {1} = {2}'.format ( sayi1, sayi2, sonuc6 ) )
 
 print ( 'Üs alma: {0} ** {1} = {2}'.format ( sayi1, sayi2, sonuc7 ) )
+
+# Bu kısımda kullanıcıdan alınan 2 sayı, kullanıcı tarafından belirtilen aritmetik işleme tabi tutulmaktadır.
+
+# Sayılar alınır.
+sayi3 = input ( 'İlk sayıyı giriniz: ' )
+sayi4 = input ( 'İkinci sayıyı giriniz: ' )
+
+# İşlem yapılır.
+
+sonuc8 = int ( sayi3 ) + int ( sayi4 )
+
+# Sonuç
+print ( '{0} + {1} = {2}'.format ( sayi3, sayi4, sonuc8 ) )
